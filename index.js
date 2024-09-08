@@ -11,7 +11,6 @@ const retrieveEntries = () => {
 };
 
 let userEntries = retrieveEntries();
-localStorage.removeItem("user-entries");
 
 const displayEntries = () => {
     const entries = retrieveEntries();
